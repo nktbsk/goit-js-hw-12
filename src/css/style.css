@@ -1,0 +1,135 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.container {
+  padding: 36px 0;
+  max-width: 1440px;
+  margin: auto;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.search-input {
+  width: 272px;
+  height: 40px;
+  flex-direction: row;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 16px;
+}
+.search-input:hover {
+  border: 1px solid #000;
+}
+.search-input:focus {
+  outline: none;
+  border: 1px solid #4e75ff;
+}
+.search-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+.search-btn:hover {
+  border: 1px solid #4e75ff;
+  background-color: #6c8cff;
+}
+.gallery-item {
+  position: relative;
+  display: inline-block;
+}
+.gallery {
+  display: flex;
+  width: 1128px;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: auto;
+  padding-top: 32px;
+}
+.gallery-img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #808080;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+  background: #fff;
+  padding: 3px 0;
+  border-bottom: 1px solid #808080;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  position: absolute;
+  bottom: 0;
+}
+.p-likes {
+  text-align: center;
+  width: 34px;
+  height: 40px;
+}
+.p-views {
+  text-align: center;
+  width: 48px;
+  height: 40px;
+}
+.p-comments {
+  text-align: center;
+  width: 72px;
+  height: 40px;
+}
+.p-downloads {
+  text-align: center;
+  width: 74px;
+  height: 40px;
+}
+
+.load-more {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  width: 125px;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+  border: 1px solid #4e75ff;
+  background-color: #6c8cff;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+  color: #3498db;
+}
+
+.hidden {
+  display: none;
+}
